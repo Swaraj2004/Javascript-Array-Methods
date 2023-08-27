@@ -5,8 +5,8 @@
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.fill("Kiwi");
-console.log(fruits);
+console.log(fruits); // [ 'Kiwi', 'Kiwi', 'Kiwi', 'Kiwi' ]
 
 const numbers = [1, 2, 3, 4, 5];
 numbers.fill(0, 2, 4);
-console.log(numbers);
+console.log(numbers); // [ 1, 2, 0, 0, 5 ]
