@@ -7,3 +7,8 @@ const keys = fruits.keys();
 for (let x of keys) {
   console.log(x);
 }
+// Output:
+// 0
+// 1
+// 2
+// 3
