@@ -5,8 +5,8 @@
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.copyWithin(2, 0);
-console.log(fruits);
+console.log(fruits); // [ 'Banana', 'Orange', 'Banana', 'Orange' ]
 
 const newFruits = ["Banana", "Orange", "Apple", "Mango", "Kiwi"];
 newFruits.copyWithin(2, 0, 2);
-console.log(newFruits);
+console.log(newFruits); // [ 'Banana', 'Orange', 'Banana', 'Orange', 'Kiwi' ]
