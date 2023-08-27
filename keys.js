@@ -12,3 +12,11 @@ for (let x of keys) {
 // 1
 // 2
 // 3
+
+// The iterable returned from keys() is not reusable.
+// When next().done = true or currentIndex > length,
+// the for...of loop ends, and further iterating it has no effect.
+for (let x of keys) {
+  console.log(x);
+}
+// undefined
