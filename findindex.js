@@ -7,4 +7,4 @@
 
 const ages = [3, 10, 18, 20];
 const output = ages.findIndex((age) => age > 18);
-console.log(output);
+console.log(output); // 3
