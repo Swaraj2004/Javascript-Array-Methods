@@ -2,6 +2,9 @@
 // The reduce() method returns a single value: the function's accumulated result.
 // The reduce() method does not execute the function for empty array elements.
 // The reduce() method does not change the original array.
+// At the first callback, there is no return value from the previous callback.
+// Normally, array element 0 is used as initial value, and the iteration starts from array element 1.
+// If an initial value is supplied, this is used, and the iteration starts from array element 0.
 // Syntax: array.reduce(function(accumulator, currentValue, currentIndex, arr), initialValue)
 
 // Round all the numbers and display the sum
