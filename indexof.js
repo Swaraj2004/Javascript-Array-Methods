@@ -6,8 +6,8 @@
 
 const fruits = ["Banana", "Orange", "Apple", "Mango", "Apple"];
 let index = fruits.indexOf("Apple");
-console.log(index);
+console.log(index); // 2
 index = fruits.indexOf("Apple", 3);
-console.log(index);
+console.log(index); // 2
 index = fruits.indexOf("Apple", -1);
-console.log(index);
+console.log(index); // 4
