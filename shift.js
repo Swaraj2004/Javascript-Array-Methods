@@ -3,5 +3,5 @@
 // The shift() method returns the shifted element.
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
-console.log(fruits.shift());
-console.log(fruits);
+console.log(fruits.shift()); // Banana
+console.log(fruits); // [ 'Orange', 'Apple', 'Mango' ]
