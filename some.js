@@ -8,7 +8,7 @@
 
 const ages = [3, 10, 18, 20];
 const output = ages.some((age) => age > 18);
-console.log(output);
+console.log(output); // true
 
 // Check if some answers are the different
 const survey = [
@@ -25,4 +25,4 @@ function isSameAnswer(el, index, arr) {
     return el.answer !== arr[index - 1].answer;
   }
 }
-console.log(result);
+console.log(result); // true
