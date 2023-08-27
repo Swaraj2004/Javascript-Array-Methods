@@ -13,7 +13,7 @@ const total = numbers.reduce(getSum, 0);
 function getSum(total, num) {
   return total + Math.round(num);
 }
-console.log(`Total: ${total}`);
+console.log(`Total: ${total}`); // Total: 24
 
 // Find max value from the array
 const nums = [1, 4, 2, 6, 9, 7];
@@ -22,4 +22,4 @@ function callback(acc, value) {
   if (acc > value) return acc;
   else return value;
 }
-console.log(`Max: ${max}`);
+console.log(`Max: ${max}`); // Max: 9
