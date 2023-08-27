@@ -7,7 +7,7 @@
 
 const ages = [3, 10, 18, 20];
 const output = ages.find((age) => age > 18);
-console.log(output);
+console.log(output); // 20
 
 const persons = [
   {
@@ -28,4 +28,4 @@ const result = persons.find(findLisa);
 function findLisa(person) {
   return person.name === "Lisa";
 }
-console.log(result);
+console.log(result); // { name: 'Lisa', age: 22 }
