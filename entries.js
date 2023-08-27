@@ -15,6 +15,14 @@ for (let x of iterator) {
 // [ 2, 'Apple' ]
 // [ 3, 'Mango' ]
 
+// The iterable returned from entries() is not reusable.
+// When next().done = true or currentIndex > length,
+// the for...of loop ends, and further iterating it has no effect.
+for (let x of iterator) {
+  console.log(x);
+}
+// undefined
+
 for (const [i, el] of fruits.entries()) {
   console.log(i, el);
 }
