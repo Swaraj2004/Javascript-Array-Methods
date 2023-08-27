@@ -7,6 +7,6 @@ const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
 const citrus = fruits.slice(1, 3);
 const myBest = fruits.slice(-3, -1);
 const all = fruits.slice();
-console.log(citrus);
-console.log(myBest);
-console.log(all);
+console.log(citrus); // [ 'Orange', 'Lemon' ]
+console.log(myBest); // [ 'Lemon', 'Apple' ]
+console.log(all); // [ 'Banana', 'Orange', 'Lemon', 'Apple', 'Mango' ]
