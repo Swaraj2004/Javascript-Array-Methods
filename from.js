@@ -6,15 +6,15 @@
 // Syntax: Array.from(object, mapFunction, thisValue)
 
 const result = Array.from("ABCDEFG");
-console.log(result);
+console.log(result); // [ 'A', 'B', 'C', 'D', 'E', 'F', 'G' ]
 
 const str = "12345678";
 const output = Array.from(str, mapFn);
 function mapFn(item) {
   return Number(item);
 }
-console.log(output);
+console.log(output); // [ 1, 2, 3, 4, 5, 6, 7, 8 ]
 
 // Alternatively
 const res = Array.from(str, Number);
-console.log(res);
+console.log(res); // [ 1, 2, 3, 4, 5, 6, 7, 8 ]
