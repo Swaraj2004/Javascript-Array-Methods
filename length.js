@@ -2,7 +2,7 @@
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 let length = fruits.length;
-console.log(length);
+console.log(length); // 4
 
 fruits.length = 2;
-console.log(fruits);
+console.log(fruits); // [ 'Banana', 'Orange' ]
