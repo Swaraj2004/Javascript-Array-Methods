@@ -7,7 +7,7 @@
 
 const ages = [32, 33, 16, 40];
 const output = ages.every((age) => age > 18);
-console.log(output);
+console.log(output); // false
 
 // Check if all answers are the same
 const survey = [
@@ -24,4 +24,4 @@ function isSameAnswer(el, index, arr) {
     return el.answer === arr[index - 1].answer;
   }
 }
-console.log(result);
+console.log(result); // false
