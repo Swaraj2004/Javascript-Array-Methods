@@ -12,3 +12,11 @@ for (let x of values) {
 // Orange
 // Apple
 // Mango
+
+// The iterable returned from values() is not reusable.
+// When next().done = true or currentIndex > length,
+// the for...of loop ends, and further iterating it has no effect.
+for (let x of values) {
+  console.log(x);
+}
+// undefined
