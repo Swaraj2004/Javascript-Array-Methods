@@ -7,13 +7,13 @@ const arr1 = ["Cecilie", "Lone"];
 const arr2 = ["Emil", "Tobias", "Linus"];
 const arr3 = ["Robin"];
 const children = arr1.concat(arr2, arr3);
-console.log(children);
+console.log(children); // [ 'Cecilie', 'Lone', 'Emil', 'Tobias', 'Linus', 'Robin' ]
 
 const a1 = [1, 2, [3, 4]];
 const a2 = [[5, 6], 7, 8];
 const a3 = a1.concat(a2);
-console.log(a3);
+console.log(a3); // [ 1, 2, [ 3, 4 ], [ 5, 6 ], 7, 8 ]
 
 // Can also use it to push elments
 const a4 = a1.concat(5, 6);
-console.log(a4);
+console.log(a4); // [ 1, 2, [ 3, 4 ], 5, 6 ]
