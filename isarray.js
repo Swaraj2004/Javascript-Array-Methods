@@ -5,7 +5,7 @@
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 let result = Array.isArray(fruits);
-console.log(result);
+console.log(result); // true
 let text = "W3Schools";
 result = Array.isArray(text);
-console.log(result);
+console.log(result); // false
