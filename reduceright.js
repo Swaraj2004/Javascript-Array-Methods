@@ -10,11 +10,11 @@
 // Subtract the numbers in the array, starting from the end
 const numbers = [175, 50, 25];
 const result = numbers.reduceRight((total, num) => total - num);
-console.log(result); // "-200"
+console.log(result); // -200
 
 // reduce vs reduceRight
 const a = ["1", "2", "3", "4", "5"];
 const left = a.reduce((prev, cur) => prev + cur);
 const right = a.reduceRight((prev, cur) => prev + cur);
-console.log(left); // "12345"
-console.log(right); // "54321"
+console.log(left); // 12345
+console.log(right); // 54321
