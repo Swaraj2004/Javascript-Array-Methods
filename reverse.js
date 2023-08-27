@@ -2,9 +2,9 @@
 // The reverse() method overwrites the original array.
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
-console.log(fruits.reverse());
+console.log(fruits.reverse()); // [ 'Mango', 'Apple', 'Orange', 'Banana' ]
 
 // Reverse a string
 const str = "Coding is fun!";
 const result = str.split("").reverse().join("");
-console.log(result);
+console.log(result); // !nuf si gnidoC
