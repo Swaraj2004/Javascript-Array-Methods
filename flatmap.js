@@ -6,7 +6,7 @@
 
 const myArr = [1, 2, 3, 4, 5, 6];
 const newArr = myArr.flatMap((x) => [x * 2]);
-console.log(newArr);
+console.log(newArr); // [ 2, 4, 6, 8, 10, 12 ]
 
 // map vs flatMap
 const arr1 = ["it's Sunny in", "", "California"];
