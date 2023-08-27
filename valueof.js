@@ -4,8 +4,8 @@
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 const myArray = fruits.valueOf();
-console.log(myArray);
+console.log(myArray); // [ 'Banana', 'Orange', 'Apple', 'Mango' ]
 
 // fruits.valueOf() returns the same as fruits
 const myArr = fruits;
-console.log(myArr);
+console.log(myArr); // [ 'Banana', 'Orange', 'Apple', 'Mango' ]
