@@ -3,7 +3,7 @@
 // The push() method returns the new length.
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
-console.log(fruits.push("Kiwi"));
-console.log(fruits);
+console.log(fruits.push("Kiwi")); // 5
+console.log(fruits); // [ 'Banana', 'Orange', 'Apple', 'Mango', 'Kiwi' ]
 fruits.push("Lemon", "Lichi");
-console.log(fruits);
+console.log(fruits); // [ 'Banana', 'Orange', 'Apple', 'Mango', 'Kiwi', 'Lemon', 'Lichi' ]
