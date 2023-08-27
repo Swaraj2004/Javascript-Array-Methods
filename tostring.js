@@ -3,4 +3,4 @@
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 let text = fruits.toString();
-console.log(text);
+console.log(text); // Banana,Orange,Apple,Mango
