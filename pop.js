@@ -3,5 +3,5 @@
 // The pop() method returns the removed element.
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
-console.log(fruits.pop());
-console.log(fruits);
+console.log(fruits.pop()); // Mango
+console.log(fruits); // [ 'Banana', 'Orange', 'Apple' ]
