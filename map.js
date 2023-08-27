@@ -6,7 +6,7 @@
 // Square root of all elements in array
 const numbers = [4, 9, 16, 25];
 const newArr = numbers.map(Math.sqrt);
-console.log(newArr);
+console.log(newArr); // [ 2, 3, 4, 5 ]
 
 // Return array of fullnames
 const persons = [
@@ -16,4 +16,4 @@ const persons = [
 ];
 
 output = persons.map((item) => item.firstname + " " + item.lastname);
-console.log(output);
+console.log(output); // [ 'Malcom Reynolds', 'Kaylee Frye', 'Jayne Cobb' ]
